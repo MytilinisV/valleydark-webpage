@@ -1,0 +1,439 @@
+body {
+    background-image: url(/css/img/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-color: #ADADAD;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    color: #1F1F1F;
+    text-align: center;
+}
+
+
+hr {
+    border: 1px solid #1F1F1F;
+}
+
+/* Nav-bar section */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 100%;
+        /* font-size: 1.5rem; */
+        top: 0;
+        /* background-color: gray; */
+        /* border: 1px solid black; */
+    }
+
+    .valleydark-img {
+        height: 100%;
+        width: 100%;
+        position: 0px;
+        /* margin: 1% 1%; */
+        /* border: 1px solid black; */
+    }
+
+    div[class^=link] {
+        width: 20%;
+        height: 20%;
+        margin: 0 20px;
+        font-size: x-large;
+        color: #1F1F1F;
+        text-align: center;
+        /* background-color: gray; */
+        /* border: 1px solid black; */
+    }
+
+/* Discography drop down menu */
+
+    .link1 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .discography-nav {
+        position: relative;
+        font-size: x-large;
+        list-style-type: none;
+        width: fit-content;
+        /* padding: 5px 10px; */
+    }
+
+    input, button {
+        background-color: white;
+        text-align: center;
+        border: 1px solid black; 
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 0;
+        /* left: 95px; */
+        padding-top: 40px;
+        min-width: 160px;
+
+        /* align-items: center;
+        justify-content: center; */
+        text-decoration: none;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-size: medium;
+        background-color: #ADADAD;
+        /* border: 1px solid black; */
+    }
+
+    .dropdown-content > li {
+        /* width: 20%; */
+        border-bottom: 1px solid #1f1f1f;
+        margin-left: -40px;
+    }
+
+    .dropdown-content > li:last-of-type {
+        border-bottom: none;
+    }
+
+    .dropdown-content a {
+        display: flex;
+        justify-content: left;
+    }
+
+    .discography-nav > a {
+        position: relative;
+        z-index: 1;
+    }
+
+    .discography-nav:hover > ul {
+        display: block;
+        /* background-color: #ADADAD; */
+        /* justify-content: center; */
+    }
+
+    .dropdown-content a:hover {
+        color: blueviolet;
+        font-size: medium;
+    }
+
+    .dropdown-content a:active {
+        color: blue;
+        transition: 300ms;
+    }
+
+
+/* Site's title */
+    .container{
+        width: 100%;
+        height: 160px;
+        margin-bottom: 20px;
+        /* color: #1F1F1F; */
+
+        /* background-image: url(img/banner5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; */
+    }
+
+    div[class^=box] {
+        width: 100%;
+        height: auto;
+        /* margin: 20 20px; */
+
+        /* color: #1F1F1F; */
+        text-align: center;
+    }
+
+    /* Discography Section */
+    .container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        /* margin: 10px; */
+        width: 100%;
+        margin-bottom: 30px;
+        /* height: 5%; */
+    }
+
+    img[class^=box-album] {
+        width: 20%;
+        margin: 5px 20px;
+
+        color: #1F1F1F;
+        text-align: center;
+        border: 1px solid #1F1F1F;
+    }
+
+/* Latest videos */
+
+    .container-3 {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        margin: 10px;
+        width: 100%;
+        margin-bottom: 30px;
+        /* height: 5%; */
+    }
+
+    iframe{
+        width: 40%;
+        height: 500px;
+        margin: 5px 20px;
+
+        color: #1F1F1F;
+        text-align: center;
+        border: 1px solid #1F1F1F
+    }
+
+/* Reach me out section */
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 0%;
+    }
+
+    i {
+        margin-left: 10px;
+    }
+
+
+/* Clickable items */
+    a {
+        text-decoration: none;
+        color: #1F1F1F;
+    }
+
+    a:hover   {
+        color: #0A0A0A;
+        font-size: 1.61rem;
+        transition: 200ms;
+    }
+
+    a:active {
+        color: blueviolet;
+    }
+
+    button:hover {
+        color: #1F1F1F;
+        background-color: #ADADAD;
+    }
+
+    button:active {
+        color: blueviolet
+    }
+
+/* Toggle items */
+    .nav-toggle {
+        display: none;
+        margin-right: 30px;
+    }
+
+    .nav-toggle > button {
+        width: 50px;
+        height: 50px;
+        top: 0;
+        font-size: x-large;
+
+        background-color: #adadad00;
+        border: none;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+/* Responsive Design */
+
+    @media (min-width: 870px) and (max-width: 1200px) {
+
+        body{
+            font-size: large;
+        }
+
+        /* Nav-bar section */
+        .discography-nav, .link2, .link3, .link4 {
+            display: none;
+        }
+
+        .navbar-toggle > li {
+            width: 100%;
+            text-align: left;
+            position: relative;
+            font-size: small;
+            list-style-type: none;
+        }
+
+        .nav-toggle {
+            display: block;
+        }
+
+        .navbar-toggle {
+            position: absolute;
+            top: 8%;
+            /* right: 7%; */
+            align-items: center;
+            padding-top: 0px;
+            min-width: 10%;
+            padding: 0px;
+            text-decoration: none;
+            flex-direction: column;
+            justify-content: left;
+            list-style-type: none;
+            background-color: #adadade5;
+            border: 1px solid black;
+        }
+
+        .nav-toggle a {
+            position: relative;
+            z-index: 1;
+        }
+
+        .navbar-toggle > li {
+            width: 100%;
+            border-bottom: 1px solid #1f1f1f;
+        }
+        
+        .navbar-toggle > li:last-of-type {
+            border-bottom: none;
+        }
+
+        .nav-toggle:hover > ul {
+            display: block;
+        }
+
+        .nav-toggle a:hover {
+            color: violet;
+            font-size: small;
+        }
+
+        .nav-toggle button a:hover {
+            font-size: x-large;
+        }
+
+        .valleydark-img {
+            height: 100%;
+            width: 200%;
+            align-items: center;
+            /* margin: 1% 1%; */
+            /* border: 1px solid black; */
+        }
+
+    }
+
+    @media (min-width: 0px) and (max-width: 870px) {
+
+        body{
+            font-size: 0.9rem;
+        }
+        /* Nav-bar section */
+        .discography-nav, .link2, .link3, .link4 {
+            display: none;
+        }
+
+        .navbar-toggle > li {
+            width: 100%;
+            text-align: left;
+            position: relative;
+            font-size: small;
+            list-style-type: none;
+        }
+
+        .nav-toggle {
+            display: block;
+        }
+
+        .navbar-toggle {
+            position: absolute;
+            top: 8%;
+            /* right: 7%; */
+            align-items: center;
+            padding-top: 0px;
+            min-width: 10%;
+            padding: 0px;
+            text-decoration: none;
+            flex-direction: column;
+            justify-content: left;
+            list-style-type: none;
+            background-color: #adadade5;
+            border: 1px solid black;
+        }
+
+        .nav-toggle a {
+            position: relative;
+            z-index: 1;
+        }
+
+        .navbar-toggle > li {
+            width: 100%;
+            border-bottom: 1px solid #1f1f1f;
+        }
+        
+        .navbar-toggle > li:last-of-type {
+            border-bottom: none;
+        }
+
+        .nav-toggle:hover > ul {
+            display: block;
+        }
+
+        .nav-toggle a:hover {
+            color: violet;
+            font-size: small;
+        }
+
+        .nav-toggle button a:hover {
+            font-size: x-large;
+        }
+
+        .valleydark-img {
+            height: 100%;
+            width: 200%;
+            align-items: center;
+            /* margin: 1% 1%; */
+            /* border: 1px solid black; */
+        }
+
+        .link5 input, button{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            margin-top: 5px;
+            padding: 0 0;
+            height: 15px;
+        }
+
+        .link5 input {
+            width: 90%;
+            font-size: 0.6rem;
+            text-align: middle;
+        }
+
+        .link5 button{
+            width: 75%;
+            font-size: 0.6rem;
+            text-align: middle;
+            width: fit-content;
+        }
+
+
+    }
+
+
+
+
